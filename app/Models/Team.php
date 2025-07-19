@@ -7,12 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Team extends Model
 {
+    /** @use HasFactory<\Database\Factories\TeamFactory> */
     use HasFactory;
 
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $fillable = [
         'name',

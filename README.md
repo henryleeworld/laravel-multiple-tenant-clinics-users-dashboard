@@ -1,4 +1,4 @@
-# Laravel 11 多租戶診所使用者儀表板
+# Laravel 12 多租戶診所使用者儀表板
 
 新增由許多不同診所獨立管理的任務／使用者的地方，診所只能訪問（新增、查詢、修改、刪除）他們隸屬任務資料，而無法看到其他團隊建立的任何任務資料。
 
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/c8Zf9EX.png)
+![](https://i.imgur.com/C2fkvuh.png)
 > 允許快速本機端以不同角色登入
 
-![](https://i.imgur.com/Q8wGF93.png)
+![](https://i.imgur.com/pDH6CBH.png)
 > 無法瀏覽不隸屬登入者的其他診所任務和使用者
